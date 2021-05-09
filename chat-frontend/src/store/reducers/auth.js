@@ -1,4 +1,4 @@
-import { LOGIN, REGISTER, LOGOUT } from '../actions/auth'
+import { LOGIN, REGISTER, LOGOUT, UPDATE_PROFILE } from '../types/index'
 
 const initialState = {
     user: JSON.parse(localStorage.getItem('user')) || {},
@@ -7,7 +7,9 @@ const initialState = {
 }
 
 const authReducer = (state = initialState, action) => {
+
     const { type, payload } = action
+
     switch (type) {
         case LOGIN:
             return {
@@ -16,6 +18,7 @@ const authReducer = (state = initialState, action) => {
                 token: payload.token,
                 isLoggedIn: true
             }
+
         case REGISTER:
             return {
                 ...state,
@@ -32,10 +35,17 @@ const authReducer = (state = initialState, action) => {
                 isLoggedIn: false
             }
 
+        case UPDATE_PROFILE:
+            return {
+                ...state,
+                user: payload
+            }
+
         default: {
             return state
         }
     }
+
 }
 
 export default authReducer
