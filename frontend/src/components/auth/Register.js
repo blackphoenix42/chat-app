@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import registerImage from '../../assets/images/register.svg'
 import { Link } from 'react-router-dom'
-import './Auth.scss'
-
 import { useDispatch } from 'react-redux'
 import { register } from '../../store/actions/auth'
+import './Auth.scss'
 
 const Register = ({ history }) => {
+
     const dispatch = useDispatch()
 
     const [firstName, setFirstName] = useState('')
@@ -15,24 +15,9 @@ const Register = ({ history }) => {
     const [gender, setGender] = useState('male')
     const [password, setPassword] = useState('')
 
-    const handleFirstName = (e) => {
-        setFirstName(e.target.value)
-    }
-    const handleLastName = (e) => {
-        setLastName(e.target.value)
-    }
-    const handleEmail = (e) => {
-        setEmail(e.target.value)
-    }
-    const handleGender = (e) => {
-        setGender(e.target.value)
-    }
-    const handlePassword = (e) => {
-        setPassword(e.target.value)
-    }
-
     const submitForm = (e) => {
         e.preventDefault()
+
         dispatch(register({ firstName, lastName, email, gender, password }, history))
     }
 
@@ -50,32 +35,34 @@ const Register = ({ history }) => {
                         <form onSubmit={submitForm}>
                             <div className='input-field mb-1'>
                                 <input
-                                    onChange={handleFirstName}
+                                    onChange={e => setFirstName(e.target.value)}
                                     value={firstName}
                                     required='required'
                                     type='text'
-                                    placeholder="First Name" />
+                                    placeholder='First name' />
                             </div>
+
                             <div className='input-field mb-1'>
                                 <input
-                                    onChange={handleLastName}
+                                    onChange={e => setLastName(e.target.value)}
                                     value={lastName}
                                     required='required'
                                     type='text'
-                                    placeholder="Last Name" />
+                                    placeholder='Last name' />
                             </div>
+
                             <div className='input-field mb-1'>
                                 <input
-                                    onChange={handleEmail}
+                                    onChange={e => setEmail(e.target.value)}
                                     value={email}
                                     required='required'
-                                    type='email'
-                                    placeholder="Email" />
+                                    type='text'
+                                    placeholder='Email' />
                             </div>
 
                             <div className='input-field mb-1'>
                                 <select
-                                    onChange={handleGender}
+                                    onChange={e => setGender(e.target.value)}
                                     value={gender}
                                     required='required'
                                 >
@@ -86,20 +73,22 @@ const Register = ({ history }) => {
 
                             <div className='input-field mb-2'>
                                 <input
-                                    onChange={handlePassword}
+                                    onChange={e => setPassword(e.target.value)}
                                     value={password}
                                     required='required'
                                     type='password'
-                                    placeholder="Password" />
+                                    placeholder='Password' />
                             </div>
-                            <button>Register</button>
+
+                            <button>REGISTER</button>
                         </form>
+
                         <p>Already have an account? <Link to='/login'>Login</Link></p>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Register

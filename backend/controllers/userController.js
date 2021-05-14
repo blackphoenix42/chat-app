@@ -2,6 +2,7 @@ const User = require('../models').User
 const sequelize = require('sequelize')
 
 exports.update = async (req, res) => {
+
     if (req.file) {
         req.body.avatar = req.file.filename
     }

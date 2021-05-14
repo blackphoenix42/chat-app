@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const { update, search } = require('../controller/userController')
+const { update, search } = require('../controllers/userController')
 const { validate } = require('../validators')
 const { auth } = require('../middleware/auth')
 const { rules: updateRules } = require('../validators/user/update')

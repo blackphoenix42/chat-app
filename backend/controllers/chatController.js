@@ -109,6 +109,7 @@ exports.create = async (req, res) => {
         //         }
         //     ]
         // })
+
         const creator = await User.findOne({
             where: {
                 id: req.user.id
@@ -136,7 +137,7 @@ exports.create = async (req, res) => {
         }
 
 
-        return res.send([forCreator, forReceiver])
+        return res.json([forCreator, forReceiver])
 
     } catch (e) {
         await t.rollback()
