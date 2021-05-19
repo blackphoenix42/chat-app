@@ -103,8 +103,6 @@ npm start
 
 <!-- ## 🌟 Contributors
 
-Thanks goes to these wonderful people ✨✨:
-
 <table>
 	<tr>
 		<td>
