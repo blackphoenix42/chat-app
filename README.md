@@ -27,6 +27,8 @@ git clone https://github.com/blackphoenix42/chat-app.git`
 
 ### Backend 🌐
 
+- Download and install [PostgreSQL](https://www.postgresql.org/download/)🐘
+
 - Navigate to backend directory
 
 ```
@@ -39,9 +41,21 @@ cd .\backend\
 npm install
 ```
 
-- Add PostgresSQL credentials in `.env.EXAMPLE` file.
+- Add PostgresSQL databse password in `.env.EXAMPLE` file and remove `.EXAMPLE` from the extension.
 
-- Rename it and remove `.EXAMPLE` from the extension.
+- Create `chat_app` database in pgAdmin. (You can provide a different name but change it too in the `.env` file.)
+
+- In the terminal, run the following command to create tables in database
+
+```
+npx sequelize-cli db:migrate
+```
+
+- Send dummy data to the database.
+
+```
+npx sequelize-cli db:seed:all
+```
 
 - Start the server
 
@@ -51,7 +65,7 @@ npm start
 
 ### Frontend 💻
 
-- Now navigate to frontend directory
+- Navigate to frontend directory
 
 ```
 cd .\frontend\
@@ -69,7 +83,7 @@ npm install
 npm start
 ```
 
-<div align="center"><img width=25%" src="https://media.giphy.com/media/l41lUeeQfYfACcYjS/giphy.gif" ></div>
+<!-- <div align="center"><img width=25%" src="https://media.giphy.com/media/l41lUeeQfYfACcYjS/giphy.gif" ></div> -->
 
 # ⚡ Technology Stack
 
@@ -84,7 +98,7 @@ npm start
 - Check out [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Start contributing to get featured in README.md
 
-<div align="center"><img width="25%" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" ></div>
+<!-- <div align="center"><img width="25%" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" ></div> -->
 
 ## 👾 Project Admin
 
