@@ -69,7 +69,7 @@ npm install
 npm start
 ```
 
-<center><img width=25%" src="https://media.giphy.com/media/l41lUeeQfYfACcYjS/giphy.gif" ></center>
+<div align="center"><img width=25%" src="https://media.giphy.com/media/l41lUeeQfYfACcYjS/giphy.gif" ></div>
 
 # ⚡ Technology Stack
 
@@ -85,7 +85,7 @@ npm start
 - Check out [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Start contributing to get featured in README.md
 
-<center><img width="25%" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" ></center>
+<div align="center"><img width="25%" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" ></div>
 
 ## 👾 Project Admin
 
