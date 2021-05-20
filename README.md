@@ -81,7 +81,6 @@ npm start
 ## 🚀 How to Contribute to Chat-App?
 
 - Take a look at the Existing [Issues](https://github.com/blackphoenix/chat-app/issues) or create your own Issues!
-- Wait for the Issue to be assigned to you.
 - Check out [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Start contributing to get featured in README.md
 
