@@ -13,29 +13,29 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-   await queryInterface.bulkInsert('Users',[
-     {
-       firstName: 'John',
-       lastName: 'Doe',
-       email: 'john.doe@gmail.com',
-       password:bcrypt.hashSync('secret',10),
-       gender:'male'
-     },
-     {
-      firstName: 'Rosy',
-      lastName: 'Jain',
-      email: 'rosy.jain@gmail.com',
-      password:'secret',
-      gender:'female'
-    },
-    {
-      firstName: 'Sam',
-      lastName: 'Smith',
-      email: 'sam.smith@gmail.com',
-      password:'secret',
-      gender:'male'
-    },
-   ])
+    await queryInterface.bulkInsert('Users', [
+      {
+        firstName: 'John',
+        lastName: 'Doe',
+        email: 'john.doe@gmail.com',
+        password: bcrypt.hashSync('secret', 10),
+        gender: 'male'
+      },
+      {
+        firstName: 'Rosy',
+        lastName: 'Jain',
+        email: 'rosy.jain@gmail.com',
+        password: bcrypt.hashSync('secret', 10),
+        gender: 'female'
+      },
+      {
+        firstName: 'Sam',
+        lastName: 'Smith',
+        email: 'sam.smith@gmail.com',
+        password: bcrypt.hashSync('secret', 10),
+        gender: 'male'
+      },
+    ])
   },
 
   down: async (queryInterface, Sequelize) => {
@@ -45,6 +45,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-     await queryInterface.bulkDelete('Users', null, {});
+    await queryInterface.bulkDelete('Users', null, {});
   }
 };
