@@ -1,13 +1,15 @@
 <div align="center">
-<img src="./frontend/public/logo512.png" width=250 height=250>
 
-<h3>Join official <a href="https://discord.gg/mRUZEhD">Discord Server</a> for discussion.</h3>
+<!-- ![Issues](https://img.shields.io/github/issues/blackphoenix42/chat-app)
+![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app) -->
 
-![Issues](https://img.shields.io/github/issues/blackphoenix42/chat-app)
-![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app)
 ![Forks](https://img.shields.io/github/forks/blackphoenix42/chat-app)
 ![Stars](https://img.shields.io/github/stars/blackphoenix42/chat-app)
 [![License](https://img.shields.io/github/license/blackphoenix42/chat-app)](https://github.com/blackphoenix42/lane_detection_opencv/blob/master/LICENSE)
+
+<img src="./frontend/public/logo512.png" width=250 height=250>
+
+<h3>Join official <a href="https://discord.gg/mRUZEhD">Discord Server</a> for discussion.</h3>
 
 ![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)
 ![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)
