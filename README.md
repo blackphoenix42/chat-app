@@ -1,4 +1,7 @@
 <div align="center">
+<img src="./frontend/public/logo512.png" width=250 height=250>
+
+<h3>Join official <a href="https://discord.gg/mRUZEhD">Discord Server</a> for discussion.</h3>
 
 ![Issues](https://img.shields.io/github/issues/blackphoenix42/chat-app)
 ![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app)
@@ -6,14 +9,9 @@
 ![Stars](https://img.shields.io/github/stars/blackphoenix42/chat-app)
 [![License](https://img.shields.io/github/license/blackphoenix42/chat-app)](https://github.com/blackphoenix42/lane_detection_opencv/blob/master/LICENSE)
 
-<img src="./frontend/public/logo512.png" width=250 height=250>
-
-<h3>Join official <a href="https://discord.gg/mRUZEhD">Discord Server</a> for discussion.</h3>
-
-![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
-![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
-![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)
-![forthebadge](https://forthebadge.com/images/badges/open-source.svg)
+![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)
+![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)
+![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)
 
 </div>
 
@@ -71,7 +69,9 @@ npm install
 npm start
 ```
 
-# Technology Stack
+<center><img width=25%" src="https://media.giphy.com/media/l41lUeeQfYfACcYjS/giphy.gif" ></center>
+
+# ⚡ Technology Stack
 
 - React
 - Nodejs
@@ -83,9 +83,11 @@ npm start
 - Take a look at the Existing [Issues](https://github.com/blackphoenix/chat-app/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you.
 - Check out [CONTRIBUTING.md](./CONTRIBUTING.md)
-- Start contributing to get featured in readme.md
+- Start contributing to get featured in README.md
 
-## Project Admin 👾
+<center><img width="25%" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" ></center>
+
+## 👾 Project Admin
 
 <table>
 	<tr>
