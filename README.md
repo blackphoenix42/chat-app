@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- ![Issues](https://img.shields.io/github/issues/blackphoenix42/chat-app)
-![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app) -->
-
+![Issues](https://img.shields.io/github/issues/blackphoenix42/chat-app)
+![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app)
 ![Forks](https://img.shields.io/github/forks/blackphoenix42/chat-app)
 ![Stars](https://img.shields.io/github/stars/blackphoenix42/chat-app)
 [![License](https://img.shields.io/github/license/blackphoenix42/chat-app)](https://github.com/blackphoenix42/lane_detection_opencv/blob/master/LICENSE)
