@@ -88,7 +88,7 @@ npm start
 
 # 🔑Credentials
 
-Use following credentials for checking out the app.
+Use following credentials to check out the app.
 
 ```
 email:john.doe@gmail.com
