@@ -4,7 +4,7 @@
 ![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app)
 ![Forks](https://img.shields.io/github/forks/blackphoenix42/chat-app)
 ![Stars](https://img.shields.io/github/stars/blackphoenix42/chat-app)
-[![License](https://img.shields.io/github/license/blackphoenix42/chat-app)](https://github.com/blackphoenix42/lane_detection_opencv/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/blackphoenix42/chat-app)](https://github.com/blackphoenix42/chat-app/blob/master/LICENSE)
 
 <img src="./frontend/public/logo512.png" width=250 height=250>
 
