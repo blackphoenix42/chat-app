@@ -22,7 +22,7 @@
 
 - Clone this repository remotely.
 
-```
+```sh
 git clone https://github.com/blackphoenix42/chat-app.git`
 ```
 
@@ -32,13 +32,13 @@ git clone https://github.com/blackphoenix42/chat-app.git`
 
 - Navigate to backend directory
 
-```
+```sh
 cd .\backend\
 ```
 
 - Install the dependencies
 
-```
+```sh
 npm install
 ```
 
@@ -48,19 +48,19 @@ npm install
 
 - In the terminal, run the following command to create tables in database
 
-```
+```sh
 npx sequelize-cli db:migrate
 ```
 
 - Send dummy data to the database.
 
-```
+```sh
 npx sequelize-cli db:seed:all
 ```
 
 - Start the server
 
-```
+```sh
 npm start
 ```
 
@@ -68,25 +68,34 @@ npm start
 
 - Navigate to frontend directory
 
-```
+```sh
 cd .\frontend\
 ```
 
 - Install the dependencies
 
-```
+```sh
 npm install
 ```
 
 - Start the app
 
-```
+```sh
 npm start
 ```
 
 <!-- <div align="center"><img width=25%" src="https://media.giphy.com/media/l41lUeeQfYfACcYjS/giphy.gif" ></div> -->
 
-# ⚡ Technology Stack
+# 🔑Credentials
+
+Use following credentials for checking out the app.
+
+```
+email:john.doe@gmail.com
+password:secret
+```
+
+# 📚 Technology Stack
 
 - React
 - Nodejs
