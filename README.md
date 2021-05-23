@@ -104,7 +104,7 @@ password:secret
 
 ## 🚀 How to Contribute to Chat-App?
 
-- Take a look at the Existing [Issues](https://github.com/blackphoenix/chat-app/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/blackphoenix42/chat-app/issues) or create your own Issues!
 - Check out [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Start contributing to get featured in README.md
 
