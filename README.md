@@ -1,20 +1,38 @@
 <div align="center">
 
-![Issues](https://img.shields.io/github/issues/blackphoenix42/chat-app)
-![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app)
-![Forks](https://img.shields.io/github/forks/blackphoenix42/chat-app)
-![Stars](https://img.shields.io/github/stars/blackphoenix42/chat-app)
-[![License](https://img.shields.io/github/license/blackphoenix42/chat-app)](https://github.com/blackphoenix42/chat-app/blob/master/LICENSE)
 
 <img src="./frontend/public/logo512.png" width=250 height=250>
 
-<h3>Join official <a href="https://discord.gg/mRUZEhD">Discord Server</a> for discussion.</h3>
+# CHAT<span>.</span>IO
 
-![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)
-![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)
-![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)
+
+<!-- ![Issues](https://img.shields.io/github/issues/blackphoenix42/chat-app)
+![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/chat-app)
+![Forks](https://img.shields.io/github/forks/blackphoenix42/chat-app)
+![Stars](https://img.shields.io/github/stars/blackphoenix42/chat-app)
+[![License](https://img.shields.io/github/license/blackphoenix42/chat-app)](https://github.com/blackphoenix42/chat-app/blob/master/LICENSE) -->
+
+![forthebadge](https://forthebadge.com/images/badges/powered-by-water.svg)
+![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)
+![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)
 
 </div>
+
+# 📃 About
+
+A chat app where users can send messages to each other. This project’s backend and frontend has an authentication system. It achieves real-time communication using `socket.io` and has many amazing features. 
+
+### Few Awesome Features 🕹
+
+- Send and receive messages in real-time 📧
+<div align="center"><img src="./.github/assets/chat.gif" ></div>
+
+- Update Profile 👨🏻‍🏫
+<div align="center"><img src="./.github/assets/updateProfile.gif" ></div>
+
+- Upload and send files 📁
+<div align="center"><img src="./.github/assets/sendFile.gif" ></div>
+  
 
 # 🌱 Quick Start
 
@@ -84,11 +102,11 @@ npm install
 npm start
 ```
 
-<!-- <div align="center"><img width=25%" src="https://media.giphy.com/media/l41lUeeQfYfACcYjS/giphy.gif" ></div> -->
+<div align="center"><img width=35%" src="https://i.giphy.com/media/wABP9NJXf4LEssRZ2s/giphy.webp" ></div>
 
 # 🔑Credentials
 
-Use following credentials to check out the app.
+Use following credentials to try out the app.
 
 ```
 email:john.doe@gmail.com
@@ -104,11 +122,11 @@ password:secret
 
 ## 🚀 How to Contribute to Chat-App?
 
-- Take a look at the Existing [Issues](https://github.com/blackphoenix/chat-app/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/blackphoenix42/chat-app/issues) or create your own Issues!
 - Check out [CONTRIBUTING.md](./CONTRIBUTING.md)
-- Start contributing to get featured in README.md
+- Start contributing to add yourself in README.md 🤙🏻
 
-<!-- <div align="center"><img width="25%" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" ></div> -->
+<div align="center"><img width="35%" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" ></div>
 
 ## 👾 Project Admin
 
